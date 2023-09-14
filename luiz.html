@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>AME LUIZ - O Luiz </title>
+  <link rel="icon" href="image/favicon6.png" type="image/png">
+  <link rel="stylesheet" href="assets/animation/animate.min.css">
+  <link rel="stylesheet" href="assets/animation/custom-animation.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/swiper/swiper.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/nice-select/nice-select.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="ctn-preloader" id="ctn-preloader">
+      <div class="round_spinner">
+        <div class="spinner"></div>
+        <div class="text">
+          <h2 style="color: #002776">
+            AME <span style="color: #009c3b">LUIZ</span>
+          </h2>
+        </div>
+      </div>
+      <h2 class="head">JUNTOS PELO VIDA DO LUIZ</h2>
+      <p></p>
+    </div>
+  </div>
+  <!-- Preloader End -->
+  <!-- Main -->
+  <main class="main">
+    <!-- Header Style One -->
+    <!-- header -->
+    <header class="header header--styleFour sticky-on">
+      <div>
+        <div class="container container--custom">
+          <div class="row">
+            <div class="col-12">
+              <div class="header__wrapper">
+                <!-- logo start -->
+                <div class="header__logo">
+                  <a href="index.html" class="header__logo__link">
+                    <h2 style="color: #002776">
+                      AME <span style="color: #009c3b">LUIZ</span>
+                    </h2>
+                  </a>
+                </div>
+                <!-- logo end -->
+                <!-- Main Menu Start -->
+                <div class="header__menu">
+                  <nav class="mainMenu">
+                    <ul>
+                      <li class="dropdown">
+                        <a href="index.html" id="link1">Inicio</a>
+                      </li>
+                      <li><a href="luiz.html" id="link2">Luiz</a></li>
+                      <li><a href="doacao.html" id="link3">Doação</a></li>
+
+                      <li><a href="contato.html" id="link4">Contato</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- Main Menu End -->
+                <!-- Header Right Buttons Search Cart -->
+                <div class="header__right">
+                  <div class="header__button">
+                    <a class="btn btn--styleOne btn--secondary it-btn" href="doacao.html">
+                      <span class="btn__text">Faça uma doação</span>
+                      <i class="fa-solid fa-heart btn__icon"></i>
+                      <span class="it-btn__inner">
+                        <span class="it-btn__blobs">
+                          <span class="it-btn__blob"></span>
+                          <span class="it-btn__blob"></span>
+                          <span class="it-btn__blob"></span>
+                          <span class="it-btn__blob"></span>
+                        </span>
+                      </span>
+                      <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                          <filter>
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                              result="goo"></feColorMatrix>
+                            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                          </filter>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <!-- Header Right Buttons Search Cart -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- Mobile Menu Button Start -->
+    <div class="header header--mobile cc-header-menu mean-container position-relative" id="meanmenu">
+      <div class="mean-bar headerBurgerMenu">
+        <a href="index.html">
+          <h2 style="color: #002776">
+            AME <span style="color: #009c3b">LUIZ</span>
+          </h2>
+        </a>
+        <!-- Header Right Buttons Search Cart -->
+        <div class="header__right">
+          <div class="header__actions">
+            <ul>
+              <li>
+                <button class="headerBurgerMenu__button sidebarBtn"
+                  onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                  aria-label="Main Menu">
+                  <svg width="50" height="50" viewBox="0 0 100 100">
+                    <path class="line line1"
+                      d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3"
+                      d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Header Right Buttons Search Cart -->
+      </div>
+    </div>
+    <!-- Mobile Menu Button End -->
+    <!-- Mobile Menu Navbar -->
+    <div class="cc cc--slideNav">
+      <div class="cc__logo mb-40">
+        <a href="index.html">
+          <h2 style="color: #002776">
+            AME <span style="color: #009c3b">LUIZ</span>
+          </h2>
+        </a>
+      </div>
+      <div class="offscreen-navigation mb-40">
+        <nav class="menu-main-primary-container">
+          <ul id="menu">
+            <li class="dropdown">
+              <a href="index.html" id="link1">Inicio</a>
+            </li>
+            <li><a href="luiz.html" id="link2">Luiz</a></li>
+            <li><a href="doacao.html" id="link3">Doação</a></li>
+
+            <li><a href="contato.html" id="link4">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="itSocial itSocial--sidebar mb-40">
+        <ul>
+          <li>
+            <a class="facebook" href="" rel="nofollow">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a class="twitter" href="" rel="nofollow">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="instagram" href="" rel="nofollow">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="cc__button">
+        <div class="header__button">
+          <a class="btn btn--styleOne btn--secondary it-btn" href="doacao.html">
+            <span class="btn__text">faça uma doação</span>
+            <i class="fa-solid fa-heart btn__icon"></i>
+            <span class="it-btn__inner">
+              <span class="it-btn__blobs">
+                <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+                <span class="it-btn__blob"></span>
+              </span>
+            </span>
+            <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                    result="goo"></feColorMatrix>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+              </defs>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu Navbar End -->
+    <!-- Header Style One End -->
+    <!-- Page Breadcumb -->
+    <section class="pageBreadcumb pageBreadcumb--style1 position-relative"
+      data-bg-image="image/bg/pageBreadcumbBg1.jpg">
+      <div class="pageBreadcumbTopDown">
+        <div class="btn btn--styleOne btn--icon btn--icon2 it-btn">
+          <svg class="btn__icon" width="10" height="14" viewBox="0 0 10 14" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.869141 8.70508L1.45508 8.11914C1.60156 8.00195 1.80664 8.00195 1.95312 8.14844L4.23828 10.4922V0.414062C4.23828 0.208984 4.38477 0.0625 4.58984 0.0625H5.41016C5.58594 0.0625 5.76172 0.208984 5.76172 0.414062V10.4922L8.01758 8.14844C8.16406 8.00195 8.36914 8.00195 8.51562 8.11914L9.10156 8.70508C9.21875 8.85156 9.21875 9.05664 9.10156 9.20312L5.23438 13.0703C5.08789 13.1875 4.88281 13.1875 4.73633 13.0703L0.869141 9.20312C0.751953 9.05664 0.751953 8.85156 0.869141 8.70508Z"
+              fill="#60646B" />
+          </svg>
+          <span class="it-btn__inner">
+            <span class="it-btn__blobs">
+              <span class="it-btn__blob"></span>
+              <span class="it-btn__blob"></span>
+              <span class="it-btn__blob"></span>
+              <span class="it-btn__blob"></span>
+            </span>
+          </span>
+          <svg class="it-btn__animation" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+              <filter>
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+                </feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="sectionShape sectionShape--top">
+        <img src="image/shapes/pagebreadcumbShapeTop.svg" alt="Gainioz">
+      </div>
+      <div class="sectionShape sectionShape--bottom">
+        <img src="image/shapes/pagebreadcumbShapeBottom.svg" alt="Gainioz">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="pageTitle text-center">
+              <h2 class="pageTitle__heading text-white text-uppercase mb-25">Luiz Carneiro Ramos de Farias</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                  <li class="breadcrumb-item active" aria-current="page">A Inspiração que Vence a AME</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Page Breadcumb End -->
+    <!-- About -->
+    <section class="about pt-120 pb-105">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Section Heading/Title -->
+            <div class="sectionTitle text-center mb-30">
+              <span class="sectionTitle__small justify-content-center">
+                <i class="fa-solid fa-heart btn__icon"></i>
+                O QUE PODEMOS DIZER DO LUIZ
+              </span>
+              <h2 class="sectionTitle__big">Um Sorriso de Esperança e Resiliência</h2>
+            </div>
+            <!-- Section Heading/Title End -->
+          </div>
+          <div class="col-lg-10 mx-auto">
+            <div class="aboutDetails text-center">
+              Luiz Carneiro Ramos de Farias é uma luz radiante de alegria e esperança em nossas vidas. Nascido em
+              02/02/2022, este pequeno grande guerreiro tem conquistado corações com seu sorriso contagiante e espírito
+              brincalhão. Seu rosto iluminado por um sorriso constante é um testemunho de sua resiliência e força
+              inabalável.
+
+              Apesar dos desafios impostos pela Atrofia Muscular Espinhal (AME), Luiz é um exemplo de determinação e
+              positividade. Ele encara cada dia com a mesma coragem que inspira a todos ao seu redor. Suas risadas são
+              como melodias de esperança, lembrando-nos de que a alegria pode ser encontrada mesmo nas circunstâncias
+              mais desafiadoras.
+
+              Luiz é um explorador incansável do mundo ao seu redor, encontrando alegria nas pequenas coisas e
+              ensinando-nos a valorizar cada momento precioso. Seu espírito brincalhão nos recorda a importância de
+              nunca deixar a criança interior desaparecer, não importa quais obstáculos possam surgir.
+
+              Além de ser um raio de sol em nossos dias, Luiz é um símbolo de amor e unidade. Sua família e comunidade
+              se uniram para apoiá-lo em sua jornada, demonstrando o poder da solidariedade e do amor incondicional.
+              Eles são os pilares que sustentam Luiz em sua jornada, e sua dedicação é admirável.
+
+              A história de Luiz é uma lição profunda sobre a força do espírito humano, a importância da esperança e a
+              capacidade de encontrar beleza na adversidade. Ele nos recorda que a alegria e a resiliência podem
+              coexistir, mesmo em face de desafios extraordinários.
+
+              A jornada de Luiz é um lembrete de que a vida é preciosa e que, com amor, apoio e generosidade, podemos
+              fazer a diferença na vida daqueles que enfrentam dificuldades. Junte-se a nós nesta missão de dar a Luiz a
+              oportunidade de um futuro brilhante. Cada ato de generosidade é um raio de esperança que ilumina o caminho
+              dele e nos lembra da beleza da compaixão humana.
+
+              Luiz, com seu sorriso cativante e espírito inquebrável, é uma inspiração para todos nós. Sua jornada é uma
+              celebração da vida e uma lição sobre o poder da resiliência e da alegria. Com você ao nosso lado, estamos
+              determinados a escrever um capítulo de superação na história de Luiz. Juntos, somos mais fortes, e juntos,
+              podemos transformar vidas </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+    <!-- About Feature -->
+    <div class="about position-relative">
+      <img src="image/map/map-about-tab.svg" alt="Gainioz" class="map-about-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="featureTab">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link " id="familiaLuiz-tab" data-bs-toggle="tab"
+                    data-bs-target="#familiaLuiz" type="button" role="tab" aria-controls="familiaLuiz" aria-selected="true">A Família de Luiz</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="tratamento-tab" data-bs-toggle="tab" data-bs-target="#tratamento"
+                    type="button" role="tab" aria-controls="tratamento" aria-selected="false">A Importância do Tratamento</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="aCampanha-tab" data-bs-toggle="tab" data-bs-target="#aCampanha"
+                    type="button" role="tab" aria-controls="aCampanha" aria-selected="false">A Campanha de Doação</button>
+                </li>
+              </ul>
+              <div class="tab-content pt-55" id="myTabContent">
+                <div class="tab-pane fade show active" id="familiaLuiz" role="tabpanel"
+                  aria-labelledby="familiaLuiz-tab">
+                  <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                      <div class="aboutDetails text-center">
+                        <p class="aboutDetailsText mb-20">
+                          A família de Luiz Carneiro Ramos de Farias é uma força inabalável que tem estado ao lado deste
+                          pequeno grande guerreiro em sua jornada contra a Atrofia Muscular Espinhal (AME). Juntos, eles
+                          personificam o amor, a determinação e a coragem que são essenciais para enfrentar desafios
+                          extraordinários.
+
+                          Desde o momento em que Luiz foi diagnosticado com AME, sua família se uniu em uma jornada que
+                          exigiria não apenas força física, mas também uma incrível força emocional. Cada membro da
+                          família desempenha um papel vital no apoio a Luiz e na busca pelo melhor tratamento possível.
+
+                          Os pais de Luiz são exemplos de amor incondicional e dedicação. Eles enfrentam os desafios
+                          diários com resiliência e perseverança, buscando incansavelmente todas as opções disponíveis
+                          para melhorar a vida de Luiz. Seu compromisso é uma inspiração para todos que têm o privilégio
+                          de conhecê-los.
+                        </p>
+                        <p class="aboutDetailsText mb-20">
+                          Nossa campanha de doação não é apenas uma demonstração de solidariedade com Luiz; é também um
+                          gesto de apoio à sua incrível família. Com cada contribuição, estamos fortalecendo o alicerce
+                          dessa família que luta incansavelmente pelo bem-estar de Luiz.
+
+                          A família de Luiz é uma inspiração para todos nós, lembrando-nos do poder do amor, da união e
+                          da esperança. Eles nos mostram que, mesmo nas circunstâncias mais difíceis, podemos encontrar
+                          força uns nos outros e criar uma luz brilhante de esperança para iluminar o caminho.
+                        </p>
+                      </div>
+                      <div class="aboutDetailsThumbs pt-100">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb aboutDetailsThumb--big">
+                              <img src="./image/Luiz/ajudeLuiz.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre3.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tratamento" role="tabpanel" aria-labelledby="tratamento-tab">
+                  <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                      <div class="aboutDetails text-center">
+                        <p class="aboutDetailsText mb-20">
+                          A importância do tratamento na jornada de crianças como Luiz Carneiro Ramos de Farias,
+                          diagnosticado com Atrofia Muscular Espinhal (AME), não pode ser subestimada. A AME é uma
+                          doença genética rara e degenerativa que afeta a produção de uma proteína vital chamada SMN,
+                          essencial para o funcionamento dos neurônios motores responsáveis pelos gestos voluntários
+                          vitais do corpo, como respirar, engolir e se mover.
+
+                          Para crianças como Luiz, cada movimento é uma batalha, cada respiração é uma vitória e cada
+                          dia é uma jornada de coragem. No entanto, há esperança em forma de tratamentos, e é aí que a
+                          importância deles se destaca.
+
+                          O tratamento com o medicamento Zolgensma, uma terapia genética inovadora, oferece a promessa
+                          de uma vida mais saudável e feliz para crianças com AME. Esta terapia age corrigindo a
+                          deficiência genética responsável pela AME, permitindo que as células produzam a proteína SMN
+                          que falta nos pacientes com a doença. Essa correção genética pode interromper a progressão da
+                          AME e melhorar a qualidade de vida dos pacientes.
+                        </p>
+                        <p class="aboutDetailsText mb-20">
+                          No entanto, o desafio crucial que enfrentamos é o alto custo associado ao Zolgensma,
+                          tornando-o inacessível para muitas famílias. É amplamente reconhecido como um dos medicamentos
+                          mais caros do mundo, com um valor que pode atingir a marca dos milhões de reais.
+
+                          É aqui que entra a importância das doações e do apoio da comunidade. Cada contribuição nos
+                          aproxima da nossa meta de proporcionar a Luiz e a outras crianças com AME a oportunidade de
+                          receberem o tratamento de que precisam. Cada doação é um passo em direção a um futuro mais
+                          brilhante.
+
+                          O tratamento não é apenas uma questão médica; é um raio de esperança, uma oportunidade de
+                          vencer a AME e alcançar marcos importantes de desenvolvimento. É uma chance de brincar,
+                          aprender, crescer e criar memórias preciosas.
+
+                          A importância do tratamento transcende as fronteiras da medicina; é um ato de solidariedade,
+                          amor e compaixão. É uma demonstração de que, quando nos unimos, podemos fazer a diferença na
+                          vida de crianças como Luiz, dando-lhes a oportunidade de um futuro brilhante.
+                        </p>
+                      </div>
+                      <div class="aboutDetailsThumbs pt-100">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb aboutDetailsThumb--big">
+                              <img src="./image/Luiz/ajudeLuiz.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre3.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="aCampanha" role="tabpanel" aria-labelledby="Acampanha-tab">
+                  <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                      <div class="aboutDetails text-center">
+                        <p class="aboutDetailsText mb-20">
+                          O medicamento Zolgensma é conhecido como o tratamento mais caro do mundo, e seu custo é
+                          verdadeiramente extraordinário. Para Luiz e outras crianças que enfrentam a Atrofia Muscular
+                          Espinhal (AME), o Zolgensma representa uma esperança inestimável de uma vida mais saudável e
+                          feliz. No entanto, essa esperança é acompanhada de um desafio monumental: o valor necessário
+                          para garantir esse tratamento.
+
+                          O custo do Zolgensma é uma barreira significativa para o acesso a este medicamento
+                          revolucionário. Estamos diante da necessidade de arrecadar 6.1 milhões de reais para
+                          proporcionar a Luiz a oportunidade de receber o tratamento que ele merece. Este valor pode
+                          parecer insuperável, mas acreditamos na força da comunidade e na compaixão humana.
+
+                          A jornada de Luiz é uma demonstração de coragem, amor e determinação, e sua família está unida
+                          em sua busca por uma vida melhor para ele. Agora, estamos estendendo a mão para você, nossa
+                          comunidade, para se juntar a nós nesta missão crucial.
+                        </p>
+                        <p class="aboutDetailsText mb-20">
+                          Cada doação, independentemente do valor, é um passo em direção ao nosso objetivo. Cada
+                          contribuição é um raio de esperança que ilumina o caminho de Luiz e de outras crianças que
+                          enfrentam a AME. Com sua ajuda, estamos construindo uma ponte para um futuro onde a AME não
+                          determine o destino, mas sim a determinação, o amor e a compaixão.
+
+                          A luta de Luiz é um lembrete de que, quando nos unimos em solidariedade, somos capazes de
+                          superar os desafios mais difíceis. Acreditamos que, com o apoio de pessoas como você, podemos
+                          alcançar nossa meta de 6.1 milhões de reais e dar a Luiz a oportunidade de uma vida cheia de
+                          possibilidades.
+
+                          Cada centavo conta, e cada doação nos aproxima de um futuro mais brilhante. Sua generosidade é
+                          a chave para esta transformação, e agradecemos do fundo dos nossos corações por se juntar a
+                          nós nesta jornada de esperança e cura. Com sua doação, estamos mais próximos de dar a Luiz e a
+                          outras crianças uma chance de vencer a AME e viver uma vida plena.
+                        </p>
+                      </div>
+                      <div class="aboutDetailsThumbs pt-100">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb aboutDetailsThumb--big">
+                              <img src="./image/Luiz/ajudeLuiz.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="aboutDetailsThumb">
+                              <img src="./image/Luiz/fotoSobre3.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Feature -->
+    <!-- Facts -->
+    <section class="fact pt-125 pb-95">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 mx-auto">
+            <!-- Section Heading/Title -->
+            <div class="sectionTitle text-center mb-65">
+              <span class="sectionTitle__small justify-content-center">
+                <i class="fa-solid fa-heart btn__icon"></i>
+                AJUDE O LUIZ NESSA MISSÃO
+              </span>
+              <h2 class="sectionTitle__big">Pequenas doações têm um grande impacto na vida de alguém, aja hoje!</h2>
+            </div>
+            <!-- Section Heading/Title End -->
+          </div>
+        </div>
+        <!-- <div class="factBoxes pb-70">
+          <div class="factWrapper">
+            <div class="row gx-50">
+              <div class="col-lg-4 col-md-6">
+                <div class="factBlock">
+                  <h3 class="factBlock__heading"><span class="factBlock__number">16000,</span><span
+                    class="factBlock__ext">kg</span>
+                  </h3>
+                  <span class="factBlock__tag">Food</span>
+                  <p class="factBlock__text">We help local nonprofits access the funding, tools, training,</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="factBlock">
+                  <h3 class="factBlock__heading"><span class="factBlock__number">23,</span><span
+                    class="factBlock__ext">mln</span>
+                  </h3>
+                  <span class="factBlock__tag">Food</span>
+                  <p class="factBlock__text">We help local nonprofits access the funding, tools, training,</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="factBlock">
+                  <h3 class="factBlock__heading"><span class="factBlock__number">14,000</span><span
+                    class="factBlock__ext">+</span>
+                  </h3>
+                  <span class="factBlock__tag">Food</span>
+                  <p class="factBlock__text">We help local nonprofits access the funding, tools, training,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="factWrapper factWrapper--two">
+            <div class="row justify-content-center gx-50">
+              <div class="col-lg-4 col-md-6">
+                <div class="factBlock">
+                  <h3 class="factBlock__heading"><span class="factBlock__number">16000,</span><span
+                    class="factBlock__ext">kg</span>
+                  </h3>
+                  <span class="factBlock__tag">Food</span>
+                  <p class="factBlock__text">We help local nonprofits access the funding, tools, training,</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="factBlock">
+                  <h3 class="factBlock__heading"><span class="factBlock__number">23,</span><span
+                    class="factBlock__ext">mln</span>
+                  </h3>
+                  <span class="factBlock__tag">Food</span>
+                  <p class="factBlock__text">We help local nonprofits access the funding, tools, training,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+            <p class="aboutDetailsText mb-20 text-center">No mundo de hoje, muitos de nós têm o desejo de fazer a
+              diferença, de causar um impacto positivo, mas às vezes nos sentimos intimidados pela escala dos problemas
+              que enfrentamos. No entanto, é importante lembrar que pequenas ações podem ter um impacto monumental nas
+              vidas das pessoas, e é isso que torna nossa causa tão especial.
+
+              Você pode se perguntar como uma pequena doação pode fazer a diferença real na vida de alguém. A resposta é
+              simples: é o poder da comunidade, a união de corações generosos e o compromisso de criar um mundo melhor.
+
+              Cada doação, não importa o tamanho, representa um ato de amor, compaixão e solidariedade. Quando pessoas
+              se unem com um propósito comum, o impacto é multiplicado. Sua contribuição se soma a de outros, formando
+              um elo inquebrável de apoio.
+
+              Aqui, na jornada do Luiz contra a Atrofia Muscular Espinhal (AME), acreditamos na força das pequenas
+              doações. Cada centavo doado nos aproxima da nossa meta de proporcionar ao Luiz e a outras crianças com AME
+              a oportunidade de receber o tratamento de que precisam. Cada ato de generosidade é um passo em direção a
+              um futuro mais brilhante.
+
+              Então, se você já se perguntou como pode fazer a diferença, saiba que pequenas doações têm o poder de
+              transformar vidas. Não subestime o impacto que sua contribuição pode ter. Aja hoje, faça sua doação e
+              junte-se a nós na missão de criar um mundo onde a esperança e a solidariedade prevalecem.
+
+              Pequenas doações, quando somadas, são capazes de mover montanhas e iluminar o caminho de alguém. Sua ação
+              é o que torna possível a realização de sonhos e a construção de futuros melhores. Aja hoje e seja parte
+              desta incrível jornada de mudança e renovação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Facts End -->
+    <!-- Volunteers -->
+
+    <!-- Volunteers End -->
+  </main>
+  <!-- Main End -->
+  <!-- footer -->
+  <footer class="footer footer--bg footer--styleOne pt-70 pb-40">
+    <img src="image/shapes/footerShape2.png" alt="Gainioz Shape" class="footer__shape" />
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="footer__logo">
+            <h2 style="color: #002776">
+              AME <span style="color: #009c3b">LUIZ</span>
+            </h2>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer__social itSocial">
+            <ul>
+              <li>
+                <a class="facebook" href="" rel="nofollow">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a class="twitter" href="" rel="nofollow">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a class="instagram" href="" rel="nofollow">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="footer__line" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="footer__bottom">
+          <div class="row">
+            <div class="col-12">
+              <hr class="footer__line" />
+            </div>
+            <div class="col mb-20">
+              <div class="footer__copyright pt-20">
+                <p class="footer__copyright__text mb-0">
+                  Todos os direitos reservados
+                  <span style="font-size: 1.1rem; color: rgb(20, 185, 14)">
+                    <span style="color: #002776; font-weight: bold;">AME</span> Luiz
+                  </span> <br>
+                  <span>Desenvolvido por </span>
+                  <span style="font-size: 1.1rem; color: rgb(185, 159, 14)">Ipulse</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- CURSOR -->
+  <div class="mouseCursor cursor-outer"></div>
+  <div class="mouseCursor cursor-inner"></div>
+  <!-- /CURSOR -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- Template Search -->
+  <div id="template-search" class="template-search">
+    <button type="button" class="close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <form class="search-form">
+      <input type="search" value="" placeholder="Type your search" />
+      <button type="submit" class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </div>
+  <!-- Template Search End -->
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/swiper/swiper.min.js"></script>
+  <script src="assets/nice-select/jquery.nice-select.min.js"></script>
+  <script src="assets/validator.min.js"></script>
+  <script src="assets/animation/wow.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="./js/ativaLinks.js"></script>
+  
+
+
+</body>
+
+
+
+</html>
